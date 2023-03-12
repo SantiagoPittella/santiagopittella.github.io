@@ -4,11 +4,6 @@
     margin-bottom: 20px;
 }
 
-.lolsito{
-    color: red;
-    background-color: black;
-    text-align: center;
-}
 .descripcion-espacios{
     margin-top: 30px;
 }
@@ -17,30 +12,36 @@
 }
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #666;  
+    color: #2E3840;  
 }
 .foto{
     padding: 10px;
     width: 180px;
     border-radius: 100px;
 }
+
 .col-md-4{
-    color: #666;
-    background-color: rgb(218, 218, 218);
+    color: #2E3840;
+    background-color: #4E6E81;
+}
+
+.col-md-8{
+    padding-left: 50px;
 }
 
 .contacto{
     margin-top: 70px;
     margin-bottom: 70px;
+    text-align: center;
 }
 .nombre{
-    color: rgba(255, 166, 0, 0.651);
+    color: #F9DBBB;
 }
 
 .titulo{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -71,3 +72,12 @@ body{
 .detalle-estudio{
     font-size: 15px;
 }
+
+li{
+    padding-top: 10px;
+}
+
+.columnas {
+    width: 50%;
+    float: left;
+}  
